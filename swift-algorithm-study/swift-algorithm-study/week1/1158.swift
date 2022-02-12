@@ -6,23 +6,25 @@
 //
 
 import Foundation
-
-func run(){
-    let line = readLine()!
-    let arrLine = line.components(separatedBy: " ")
-    var n = Int(arrLine[0])!
-    var k = Int(arrLine[1])!
-    var list = LinkedList()
-    var nodeList: [Node] = []
-    for i in 0 ..< n{
-        var node = Node()
-        node.value = i + 1
-        list.add(node: node)
+class Problem1158{
+    func run(){
+        let line = readLine()!
+        let arrLine = line.components(separatedBy: " ")
+        var n = Int(arrLine[0])!
+        var k = Int(arrLine[1])!
+        var list = LinkedList()
+        var nodeList: [Node] = []
+        for i in 0 ..< n{
+            var node = Node()
+            node.value = i + 1
+            list.add(node: node)
+        }
+        print("<", terminator: "")
+        list.printYose(k: k)
+        
     }
-    print("<", terminator: "")
-    list.printYose(k: k)
-    
 }
+
 
 class Node{
     var next: Node? = nil

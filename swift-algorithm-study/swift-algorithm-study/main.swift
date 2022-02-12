@@ -8,7 +8,4 @@
 import Foundation
 
 
-main().run()
-class main{
-   
-}
+Problem10828().run()

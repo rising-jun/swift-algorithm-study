@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		724F56BD27A190C800993B35 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F56BC27A190C800993B35 /* main.swift */; };
 		7272C90127A3D8F50039C224 /* 1158.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7272C90027A3D8F50039C224 /* 1158.swift */; };
+		72AA809C27B768BC00F32382 /* 10828.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AA809B27B768BC00F32382 /* 10828.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		724F56B927A190C800993B35 /* swift-algorithm-study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm-study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		724F56BC27A190C800993B35 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7272C90027A3D8F50039C224 /* 1158.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1158.swift; sourceTree = "<group>"; };
+		72AA809B27B768BC00F32382 /* 10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10828.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		724F56BB27A190C800993B35 /* swift-algorithm-study */ = {
 			isa = PBXGroup;
 			children = (
+				72AA809A27B768AB00F32382 /* week2 */,
 				7272C8FF27A3D2AE0039C224 /* week1 */,
 				724F56BC27A190C800993B35 /* main.swift */,
 			);
@@ -71,6 +74,14 @@
 				7272C90027A3D8F50039C224 /* 1158.swift */,
 			);
 			path = week1;
+			sourceTree = "<group>";
+		};
+		72AA809A27B768AB00F32382 /* week2 */ = {
+			isa = PBXGroup;
+			children = (
+				72AA809B27B768BC00F32382 /* 10828.swift */,
+			);
+			path = week2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AA809C27B768BC00F32382 /* 10828.swift in Sources */,
 				724F56BD27A190C800993B35 /* main.swift in Sources */,
 				7272C90127A3D8F50039C224 /* 1158.swift in Sources */,
 			);
