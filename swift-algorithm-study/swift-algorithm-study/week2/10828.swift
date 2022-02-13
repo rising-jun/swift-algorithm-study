@@ -101,7 +101,4 @@ struct MyStack2{
         }
         return self.arr.removeLast()
     }
-    
-    
-    
 }
