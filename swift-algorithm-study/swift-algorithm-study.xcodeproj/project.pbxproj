@@ -13,6 +13,7 @@
 		72AA809C27B768BC00F32382 /* 10828.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AA809B27B768BC00F32382 /* 10828.swift */; };
 		72CD9C0327CA01F9000BBF9F /* 10866.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CD9C0227CA01F9000BBF9F /* 10866.swift */; };
 		72D8EB6727C2004200B60058 /* 10845.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8EB6627C2004200B60058 /* 10845.swift */; };
+		72E0B86027DDC778003CE728 /* 10026.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E0B85F27DDC778003CE728 /* 10026.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		72CD9C0227CA01F9000BBF9F /* 10866.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10866.swift; sourceTree = "<group>"; };
 		72D8EB6627C2004200B60058 /* 10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10845.swift; sourceTree = "<group>"; };
 		72D8EB6827C2248000B60058 /* 18258.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 18258.cpp; sourceTree = "<group>"; };
+		72E0B85F27DDC778003CE728 /* 10026.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10026.swift; sourceTree = "<group>"; };
 		72FD528A27B8F611006F1EEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 		724F56BB27A190C800993B35 /* swift-algorithm-study */ = {
 			isa = PBXGroup;
 			children = (
+				72E0B85E27DDC767003CE728 /* week6 */,
 				7286BBC227D3387F00E498B9 /* week5 */,
 				72CD9C0127CA010B000BBF9F /* week4 */,
 				72D8EB6527C2001000B60058 /* week3 */,
@@ -121,6 +124,14 @@
 				723EABC827C22589004BC41E /* README.md */,
 			);
 			path = week3;
+			sourceTree = "<group>";
+		};
+		72E0B85E27DDC767003CE728 /* week6 */ = {
+			isa = PBXGroup;
+			children = (
+				72E0B85F27DDC778003CE728 /* 10026.swift */,
+			);
+			path = week6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				72D8EB6727C2004200B60058 /* 10845.swift in Sources */,
 				72AA809C27B768BC00F32382 /* 10828.swift in Sources */,
 				724F56BD27A190C800993B35 /* main.swift in Sources */,
+				72E0B86027DDC778003CE728 /* 10026.swift in Sources */,
 				7272C90127A3D8F50039C224 /* 1158.swift in Sources */,
 				7286BBC427D3389400E498B9 /* 1260.swift in Sources */,
 				72CD9C0327CA01F9000BBF9F /* 10866.swift in Sources */,
